@@ -1,0 +1,202 @@
+ls()
+if(!file.exists("data")) {dir.create("data")}
+fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD"
+download.file(fileUrl, destfile = "./data/cameras.csv")
+camerasData <- read.csv("./data/cameras.csv", header = TRUE)
+head(camerasData)
+history
+history()
+if(!file.exists("data")) {dir.create("data")}
+fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.xlsx?accessType=DOWNLOAD"
+download.file(fileUrl, destfile = "./data/cameras.xlsx")
+dateDownloaded <- date()
+dateDownloaded
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+library("xlsx")
+library(xlsx)
+install.packages("xlsx")
+library(xlsx)
+library("xlsx")
+install.packages("xlsx")
+library(xlsx)
+install.packages(xlsx)
+install.packages("xlsx") ##翻墙
+library(xlsx)
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+?read.xlsx
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+install.packages("rJava")
+install.packages("rJava")
+install.packages("xlsxjars")
+library(rJava)
+library(xlsxjars)
+library(xlsx)
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+install.packages("xlsx") ##翻墙
+install.packages("xlsx")
+library(xlsx)
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+history.save("command.txt")
+save.history("command.txt")
+savehistory("command.txt")
+remove. packages(xlsx")
+remove.packages(xlsx")
+)\
+)
+)
+\
+q
+""
+remove.packages("xlsx")
+library(rJava)
+library(xlsxjars)
+install.packages("xlsx") ##翻墙
+install.packages("xlsx")
+library(rJava)
+library(xlsxjars)
+library(xlsx)
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+fileUrl <- "https://data.baltimorecity.gov/api/views/dz54-2aru/rows.xlsx?accessType=DOWNLOAD"
+download.file(fileUrl, destfile = "./data/cameras.xlsx")
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+library(xlsx)
+camerasData <- read.xlsx("./data/cameras.xlsx", sheetIndex = 1, header = TRUE)
+head(camerasData)
+library(XML)
+install.packages("XML")
+library(XML)
+fileUrl <- "http://www.w3schools.com/xml/simple.xml"
+doc <- xmlTreeParse(fileUrl, useInternal = TRUE)
+rootNode <- xmlRoot(doc)
+xmlName(rootNode)
+names(rootNode)
+rootNode[1]
+rootNode[[1]
+]
+rootNode[[1][1]]
+rootNode[[1]][[1]]
+xmlSApply(rootNode, xmlValue)
+fileUrl <- "http://www.w3schools.com/xml/simple.xml"
+install.packages("jsonlite")
+library(jsonlite)
+library("jsonlite")
+jsonData <- fromJSON(fileUrl)
+fileUrl <- "https://www.w3schools.com/xml/simple.xml"
+jsonData <- fromJSON(fileUrl)
+fileUrl <- "https://api.github.com/users/jtleek/repos"
+jsonData <- fromJSON(fileUrl)
+names(jsonData)
+names(jsonData$owner)
+names(jsonData$owner$login)
+names(jsonData$owner$id)
+names((jsonData$owner)$id)
+(jsonData$owner)$id
+data(iris)
+myjson <- toJSON(iris, pretty = TRUE)
+cat(myjson)
+iris2 <- fromJSON(myjson)
+head(iris2)
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv "
+download.file(fileUrl, "./data/housing.csv")
+housingData <- read.csv("./data/housing.csv", sep = ",", header = TRUE)
+head(housingData)
+class(housingData)
+length(housingData)
+length(housingData[housingData$VAL != "bb")
+length(housingData[housingData$VAL != "bb"])
+length(housingData[housingData$VAL != "bb",])
+length(housingData[housingData$VAL != "bb" & housingData$VAL >= 1000000,])
+length(housingData[!is.na(housingData$VAL) & housingData$VAL >= 1000000,])
+length(housingData[!is.na(housingData$VAL),])
+housingData[!is.na(housingData$VAL),]
+length(housingData[!is.na(housingData$VAL),])
+housingData2 <- housingData[!is.na(housingData$VAL),]
+length(housingData2)
+housingData2$VAL
+val <- housingData2[housingData2$VAL >= 02, ]$VAL
+length(val)
+val <- housingData2[housingData2$VAL >= 24, ]$VAL
+length(val)
+fileUr <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx "
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2FDATA.gov_NGAP.xlsx "
+download.file(fileUrl, "./data/gas.xlsx")
+nrows <- 18:23
+ncols <- 7:15
+dat <- read.xlsx("./data/gas.xlsx", sheetIndex = 1, rowIndex = nrows, colIndex = ncols, header = TRUE)
+sum(dat$Zip*dat$Ext,na.rm=T)
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml "
+doc <- xmlTreeParse(fileUrl, useInternal = TRUE)
+doc <- xmlTreeParse(fileUrl, useInternal = TRUE)
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+doc <- xmlTreeParse(fileUrl, useInternal = TRUE)
+?xmlTreeParse
+doc <- xmlTreeParse(fileUrl, useInternalNode = TRUE)
+doc <- xmlTreeParse(fileUrl, useInternalNode = TRUE)
+fileUrl
+fileUrl
+doc <- xmlTreeParse(fileUrl, useInternalNode = TRUE)
+fileUrl <- "http://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Frestaurants.xml"
+doc <- xmlTreeParse(fileUrl, useInternalNode = TRUE)
+savehistory("command1.txt")
+rootNode <- xmlRoot(doc)
+rootNode
+names(rootNode)
+names(rootNode$row)
+names(rootNode[,row])
+xmlName(rootNode)
+names(rootNode[1])
+names(rootNode[[1]])
+names(rootNode[[1]][2])
+names(rootNode[[[2]]])
+names(rootNode[[2]])
+xmlSApply(rootNode, xmlValue)
+names(rootNode[1])
+names(rootNode[1][1])
+names(rootNode[1][1][2])
+names(rootNode[[1]][1])
+names(rootNode[[1]][[1])
+names(rootNode[[1]][[1]])
+xpathSApply(rootNode,"//zipcode",xmlValue)
+zipcode <- xpathSApply(rootNode,"//zipcode",xmlValue)
+length(zipcode == "21231")
+length(zipcode)
+length(zipcode[zipcode == "21231"])
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06pid.csv "
+download.file(fileUrl, destfile = "./data/community.csv")
+communityData <- fread("./data/community.csv")
+communityData <- read.table("./data/community.csv")
+head(communityData)
+View(communityData)
+View(communityData)
+View(communityData)
+View(communityData)
+communityData <- read.table("./data/community.csv", header = T)
+head(communityData)
+View(communityData)
+View(communityData)
+DT[,mean(pwgtp15),by=SEX]
+DT <- read.table("./data/community.csv", header = T)
+DT[,mean(pwgtp15),by=SEX]
+DT <- read.csv("./data/community.csv", sep = ",", header = T)
+DT[,mean(pwgtp15),by=SEX]
+sapply(split(DT$pwgtp15,DT$SEX),mean)
+mean(DT$pwgtp15,by=DT$SEX)
+rowMeans(DT)[DT$SEX==1]; rowMeans(DT)[DT$SEX==2]
+mean(DT[DT$SEX==1,]$pwgtp15); mean(DT[DT$SEX==2,]$pwgtp15)
+sapply(split(DT$pwgtp15,DT$SEX),mean)
+tapply(DT$pwgtp15,DT$SEX,mean)
+sum(dat$Zip*dat$Ext,na.rm=T)
+DT[,mean(pwgtp15),by=SEX]
+library(data.table)
+install.packages("data.table")
+DT[,mean(pwgtp15),by=SEX]
+DT[,mean(DT$pwgtp15),by=SEX]
+DT[,mean(pwgtp15),by=SEX]
+DT <- data.table(DT)
+library(data.table)
+DT[,mean(pwgtp15),by=SEX]
+DT <- data.table(DT)
+DT[,mean(pwgtp15),by=SEX]
+head(housingData$FES)
+savehistory("command.txt")
